@@ -1,0 +1,276 @@
+Login id
+----------------------------------------
+ji782d  yc111d  vy325d
+978784  260789  22121989
+
+
+
++1-425-234-8329
+
+
+
+1791880  ms056c
+\\NW\Data\Databasedumps\Thursday_dumps_2010
+
+441573 -- Joel Palms bemsid
+
+SMTPHOST=mail.boeing.com
+SOURCE=CUSTOMEREMAILONIND = N, Sending all emails to group mailbox. <br>  Source: SEDSDEV, Environment: NOT IDENTIFIED , Module:NOT IDENTIFIED;
+MAILBOXID=seds2dev@boeing.com
+CUSTOMEREMAILONIND=N
+SMTPPORT=25
+
+
+ms056c
+Gilli123
+
+
+http://10.105.5.113:9094/controller/
+
+https://globalit.hcl.com/selfservice/
+
+
+select CASE WHEN bdrid.statuscodeid=2 OR bdrid.statuscodeid=3 OR bdrid.statuscodeid=3
+OR bdrid.statuscodeid=4
+OR bdrid.statuscodeid=5
+OR bdrid.statuscodeid=6
+OR bdrid.statuscodeid=8
+OR bdrid.statuscodeid=9
+OR bdrid.statuscodeid=10
+OR bdrid.statuscodeid=11
+OR bdrid.statuscodeid=12
+OR bdrid.statuscodeid=13
+OR bdrid.statuscodeid=14
+ THEN 'Y' ELSE 'N' END from seds_ta_bdsubmittal bd,
+           seds_ta_plheader plh, seds_ta_partlistdetail det,
+           seds_ta_sedspart spa, seds_ta_bdr2sedspart bdr2s, seds_ta_boeingdatarequirement bdrid
+           
+           where bd.id=plh.bdrsid and plh.id=det.plheaderid and det.sedspartid=spa.id 
+           and spa.id=bdr2s.sedspartid(+)
+           and bdr2s.bdrid = bdrid.id (+)
+           and bd.id=123927
+
+           
+           select * from seds_ta_boeingdatarequirement where id in (529100,529101,529102,529103,529104,529105,529106,529107,529108,529109,
+529110,529111,529112,529113,529114,529115,529116,529117,529118,529119,529120,529121,529122)
+
+select * from Seds_Ta_Bdrhistory where bdrid = 529100 order by lastrevisedstamp desc (529100,529101,529102,529103,529104,529105,529106,529107,529108,529109,
+529110,529111,529112,529113,529114,529115,529116,529117,529118,529119,529120,529121,529122)
+
+
+
+   IP                   HOST_NAME
+-------------------------------------
+10.105.4.191          DS-D4BED9BAE8E7
+
+
+
+DB_Server NAME
+-------------------
+ftcs-dbs-dev-02.cs.boeing.com
+
+H 10,13,16 * * 1-5
+0 10 * * 1-5
+
+------ Proxy-------
+arihant-proxy
+10.108.26.238
+
+http://proxy-support.boeing.com:31060/nbproxy.pac
+
+
+xz213d
+BAGA00009707
+
+ADF LEARNING
+------------------
+
+ADF_BASICS
+ADF_COMPONENT (Panel_Works)
+ADF_FACES
+PROJECT_FLOW
+
+
+Credentials
+---------------------------
+bc450d
+51359704
+
+MASZ60004714
+
+
+SEDSFT/SEDSDEV
+-----------------------------
+nw\xh782d
+T0pS3kr1
+
+n2222229
+India@123
+
+t.* , t.rowid
+
+dir /s /b /o:gn
+
+Putty
+--------------------------------
+10.105.5.115
+
+sedsuser
+changeme
+
+
+Database Credentials
+--------------------------
+
+BOLD ,COREDATA,DISCO,FARM,SCHEDULER,SEDS2,SEDS2A
+mgos
+SEDSDM
+GSESPAPP
+PUBLISHER
+
+FARM/FARM_SEKR1T12 
+SEDSDM/s25as25a  - None
+SEDS2/V1nceVent1n1sA 
+
+SEDS2APP/VAVB273  -- None
+
+SCHEDULER/seds2dev_sched   - None
+
+STEPS/STEPSWORK12 
+SEDS2A/A1B2C3D4A 
+SEDS2APPA/rain5dogs 
+
+COREDATA/seds2_coredata 
+
+MGOS/mgos 
+PSSDSHARE/sumr2rain 
+
+DISCO/disco 
+BOLD/BOLD
+
+
+
+
+SCORECARD/score_55tmppwd 
+PUBLISHER/publi_seds2dev 
+GSESPAPP/gsesp12dapp 
+
+
+
+select bd.id bdid, bdv.id bdvid,bdr.id bdrid,bds.id bdsid
+from seds_ta_boeingdocument bd,seds_ta_bdvolume bdv,seds_ta_bdrevision bdr,seds_ta_bdsubmittal bds
+where bd.id = bdv.bdid
+and bdv.id = bdr.bdvid
+and bdr.id = bds.bdrid
+and bd.id = 38096
+
+
+
+
+
+
+SELECT distinct *  FROM TABLE(SEDS_FN_INDEX_JASPER('0FF57',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null));
+
+
+
+D:\Boeing\COTS(SEDS)\Code\TFS\DevBranch\WebApp\Model\src\com\seds\model\secure\bdr\schedule\views\SedsTaATEVO.xml
+D:\Boeing\COTS(SEDS)\Code\SourceCode\July\July 16th\WebApp\Model\src\com\seds\model\secure\bdr\schedule\views\SedsTaATEVO.xml
+
+
+D:\Boeing\COTS(SEDS)\Code\TFS\DevBranch\WebApp\ViewController\public_html\regions\bdr\schedule\
+D:\Boeing\COTS(SEDS)\Code\SourceCode\July\July 16th\WebApp\ViewController\public_html\regions\bdr\schedule\
+
+
+D:\Boeing\COTS(SEDS)\Code\TFS\DevBranch\WebApp\ViewController\src\com\seds\view\backing\regions\bdr\schedule\
+D:\Boeing\COTS(SEDS)\Code\SourceCode\July\July 16th\WebApp\ViewController\src\com\seds\view\backing\regions\bdr\schedule\
+
+
+select t.*,t.rowid from seds_ta_userrole t where sid=5044 
+select y.*,y.rowid from seds_ta_user y where bemsid=2222217
+
+
+https://vtr4d.web.boeing.com/sites/ggggfnrrsrvmig/Macroscope%20Deliverables/Forms/SEDS2.aspx?RootFolder=%2fsites%2fggggfnrrsrvmig%2fMacroscope%20Deliverables%2f03-Design%20And%20Construction
+
+
+
+
+select * from seds_ta_dberrorlog order by id desc
+
+select * from SEDS_TA_BOEINGDOCUMENT order by id desc
+select * from SEDS_TA_BDVOLUME order by id desc
+select * from SEDS_TA_BDREVISION order by id desc --100931
+select * from SEDS_TA_BDSUBMITTAL order by id desc --121808
+select * from SEDS_TA_SUBMITTALNOTE order by id desc
+
+select * from seds_ta_plheader order by id desc
+select * from SEDS_TA_PARTLISTDETAIL order by id desc
+
+select * from seds_ta_sedspart order by id desc
+select * from SEDS_TA_SupplierPART order by id desc
+select * from SEDS_TA_SEDSPARTGROUP order by id desc
+
+select * from seds_ta_submitpartmodel order by id desc
+select * from SEDS_TA_PART2MODEL order by id desc
+select * from SEDS_TA_BDS2MODEL order by id desc
+select * from SEDS_TA_SUBMITTALIMPACT order by id desc
+
+select * from seds_ta_user where sid = 5114
+select * from FARM_MV_AIRPLANES
+
+
+
+
+export PATH=/home/sedsuser/workspace/conf/TEE-CLC-11.0.0:$PATH
+
+tf workfold -unmap -collection:http://10.105.5.113:8080/tfs/seds -workspace:cots_app_ws /home/sedsuser/workspace/Staging/checkout/WebApp -login:m-vijayakumar,December@2014
+tf status -workspace:cots_app_ws -server:http://10.105.5.113:8080/tfs/seds -login:m-vijayakumar,December@2014
+tf workfold -map -server:http://10.105.5.113:8080/tfs/seds -workspace:cots_app_ws $/SEDS/DevBranch/WebApp /home/sedsuser/workspace/Staging/checkout/WebApp -login:m-vijayakumar,December@2014
+
+tf label BUILD_12Dec2014 $/SEDS/DevBranch/WebApp -comment:"Test" -recursive -login:m-vijayakumar,December@2014 -collection:http://10.105.5.113:8080/tfs/seds
+
+select * from dba_users s where S.default_tablespace  in( 'SCSS_DATA','SEDSDATA');
+
+
+
+D:\Jayaraman\Large PDF\WebApp\WebApp\SedsDm\src\com\boeing\seds\model\dm\common\SubmitContent.java
+
+
+http://10.105.5.111:9093/ermtdev
+http://10.105.5.111:8080/hudson
+cots_developer
+#developer
+/rehost/products/sonar/workspace/cqmp/COTS/java/build-dev.sh COTS_PROD1.6_02Dec2014
+
+
+
+Total 28 popup in bdrScheduleUI
+-------------------
+
+1) 74 - 78
+2) 80 - 108
+3) 110 -199
+4) 200 -207
+5) 208 - 218
+6) 219 - 230
+7) 508 - 733
+8) 735 - 782
+9) 784 - 800
+10) 801 - 885
+11) 918 - 924
+12) 984 -990
+13) 1002 - 1016
+14) 1018 -1032
+15) 1034 - 1049
+16) 2330 - 2618
+17) 2621 - 2673
+18) 2675 - 2727
+19) 2729 - 2781
+20) 2783 - 2835
+21) 2837 - 2889
+22) 2891 - 2943
+23) 2945 - 2997
+24) 2999 - 3051
+25) 3053 - 3105
+26) 3107 - 3159
+27) 3161 - 3213
+28) 3253 - 3265

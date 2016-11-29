@@ -1,0 +1,62 @@
+Documentum version 6.5SP2  -- current version
+ 
+we planning to migration 6.7sp1 -- futher version
+
+Process Builder: 
+
+Main purpose is to create workflow.
+
+Activities which we are using in the process template
+
+Intial creation of document in the Push new documents
+
+Database Read -- checking for the database conditions.
+Link to Folder -- moving the document from one folder to another folder. it will unlink from the existing folder.
+Decision Split --- to which way it should move the document.
+Database Update -- to update respective status.
+Mail Activities -- SMTP activites -- sending mails.
+
+
+Each workflow will manual activities and automatic activities.
+
+
+
+DA -- Documentum Adminstrator  --- 
+
+To Access the DA -- we need to install the tomcat
+
+and we need set the proper information in the dfc.properite file. you can find the file in the below location
+
+C:\Program Files\Apache Software Foundation\Tomcat 5.5\webapps\da\WEB-INF\classes\dfc.properties
+
+there we need to specify the connection information like host name and port name.
+
+
+http://localhost:8080/da
+
+Oracle Server -- App Server (Weblogic)    (SedsDm -->SedsDmDfs -->)     JBoss Server -- Webservice  <----->Content Server -- Repository
+
+
+Composer,
+
+It is smilar eclipse.
+
+specific it is having the documentum projects extra.
+
+for creating & import and modifying the documentum objects .
+
+
+it will create the dar under the bin_dar folder.
+
+
+DQL, 
+Documentum query language.
+
+it's smilar kind of the SQL you can query the data from the server, which will read the information from the server.
+
+Samson is tool which we are using for quring the data.
+
+
+DarInstaller:
+
+Dar installer is tool which will help to install the dar files.

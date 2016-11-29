@@ -1,0 +1,999 @@
+    3  pwd
+    4  pwd
+    5  ls -ltr
+    6  pwd
+    7  sc
+    8  cat mork9086.properties
+    9  cd /tss.rehost/source/AS662_QNEW/ftcs_src/java_src/lib/
+   10  ls -ltr *.jar
+   11  pwd
+   12  pwd
+   13  ls -ltr
+   14  pwd
+   15  ls
+   16  pwd
+   17  ls -ltr
+   18  pwd
+   19  ls -ltr
+   20  pwd
+   21  ls -ltr
+   22  pwd
+   23  pwd
+   24  ls -ltr E*
+   25  pwd
+   26  cd ../properties/
+   27  ls -ltr
+   28  cat BatchDatabaseServiceConfiguration.properties
+   29  cat BatchConcurrencyThrottleConfiguration.properties
+   30  cat DatabaseServiceConfiguration.properties
+   31  cat FluxEngineConfiguration.properties
+   32  lds
+   33  ls
+   34  ls
+   35  ls -ltr
+   36  cat clientjarVersion.properties
+   37  pwd
+   38  sc
+   39  cat mindy9082.properties
+   40  cd /home.hcl/hcl_build1/ftcsbuild/mindy9082/mindy9082buildfiles
+   41  ls
+   42  cd /home.hcl/hcl_build1/ftcsbuild/mindy9082/props-mindy9082
+   43  ls -ltr
+   44  cd ..
+   45  ls -ltr
+   46  cd ..
+   47  ls -ltr
+   48  cd modularizedfiles
+   49  ls -ltr
+   50  cd ftcsverf/
+   51  ls
+   52  ls -ltr
+   53  cd latestfiles/
+   54  ls
+   55  cat clientjarVersion.properties
+   56  pwd
+   57  pwd
+   58  pwd
+   59  cp clientjarVersion.properties ../../ftcsqnew/latestfiles/
+   60  pwd
+   61  cd ../../ftcsqnew/latestfiles/
+   62  ls -ltr
+   63  cat clientjarVersion.properties
+   64  cd /opt/ftcs/WSsharedlib_verf/
+   65  ls -ltr E*
+   66  ls
+   67  ls -ltr E*
+   68  ls
+   69  ls
+   70  ls -ltr
+   71  pwd
+   72  cd /opt/flux/flux-7-11-3/installedApps/fluxverf/batch/lib/
+   73  ls -ltr E*
+   74  pwd
+   75  cd /opt/flux/flux-7-11-3/installedApps/fluxqnew/li
+   76  cd /opt/flux/flux-7-11-3/installedApps/fluxqnew/batch/lib/
+   77  ls -ltr E*
+   78  sc
+   79  ./build.sh mork9086.properties build
+   80  ls -ltr /opt/ftcs/flux_qnew/installedApps/fluxqnew/batch/*.jar
+   81  ls -ld /opt/ftcs/flux_qnew/installedApps/fluxqnew/batch
+   82  ls -ld /opt/ftcs/flux_dnew/installedApps/fluxdnew/batch
+   83  sudo su - flux6
+   84  sc
+   85  ./build.sh mork9088.properties deploy
+   86  sudo su - tss
+   87  sc
+   88  cat mork9086.properties
+   89  cd /tss.rehost/source/AS662_QNEW/ftcs_src/java_src/com
+   90  cd /tss.rehost/source/AS662_QNEW/ftcs_src/java_src/src/com/
+   91  ls
+   92  pwd
+   93  pwd
+   94  cd /opt/ftcs
+   95  ls
+   96  cd ftcsq
+   97  ls -ltr
+   98  cd ftcsarch
+   99  ls
+  100  pwd
+  101  ls -ltr
+  102  cd ..
+  103  ls -ltr
+  104  cd ftcsverf/
+  105  ls
+  106  ls -ltr
+  107  cd ..
+  108  sl -ltr
+  109  sl -ltr
+  110  sl -ltr
+  111  sl -ltr
+  112  ls -ltr
+  113  pwd
+  114  exit
+  115  sc
+  116  vi mork9082.properties
+  117  cd /tss.rehost/source/Branch_Test/Boeing_Src/Development
+  118  ls
+  119  cd ftcs_src/java_src/lib/
+  120  ls -alrt
+  121  ll x*
+  122  ll a*
+  123  cd ..
+  124  cd ..
+  125  ls
+  126  cd ..
+  127  ls
+  128  cd compile_time_lib
+  129  cd
+  130  ls
+  131  pwd
+  132  cd /tss.rehost/source/Branch_Test/Boeing
+  133  cd /tss.rehost/source/Branch_Test/Boeing_Src/Development/
+  134  ls
+  135  cd compile_time_lib
+  136  ls
+  137  pwd
+  138  sc
+  139  cat mork9086.properties
+  140  cd /home.hcl/hcl_build1/ftcsbuild/mork9086
+  141  ls
+  142  cd props-mork9086/
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd modularizedfiles/
+  149  ls
+  150  cd ftcsarch/
+  151  ls
+  152  cd latestfiles/
+  153  ls
+  154  cat clientjarVersion.properties
+  155  cp clientjarVersion.properties ../../ftcsqnew/latestfiles/clientjarVersion.properties
+  156  sc
+  157  ./build.sh mork9086.properties build
+  158  ./build.sh mork9086.properties deploy
+  159  sudo su - tss
+  160  sudo su - tss
+  161  sc
+  162  cd
+  163  ./vera.sh
+  164  sudo su - flux6
+  165  sc
+  166  b
+  167  cd CVSScritps/
+  168  vi FTCSCopyTag.sh
+  169  ./FTCSCopyTag.sh
+  170  locate http://www.youtube.com/watch?v=dV3UNoA4idU
+  171  pwd
+  172  pwd
+  173  sc
+  174  cat mork9086.properties
+  175  cd /tss.rehost/source
+  176  rm -rf AS662_QNEW
+  177  cp -rvf online/AS665 AS665_QNEW
+  178  pwd
+  179  sc
+  180  cat mork9086.properties
+  181  vi /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/VersionInfo.properties
+  182  vi /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/index.html
+  183  vi mork9086.properties
+  184  ./build.sh mork9086.properties build
+  185  ./build.sh mork9086.properties deploy
+  186  sudo su - tss
+  187  cd /opt/ftcs/WSsharedlib_qnew/
+  188  ls -ltr
+  189  cd cognos/
+  190  ls
+  191  ls -ltr
+  192  locate commons-discovery.jar
+  193  pwd
+  194  sc
+  195  cat mork9086.properties
+  196  cd /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/properties/
+  197  cd ../lib/
+  198  ls -ltr com*
+  199  cd /opt/flux/flux-7-11-3/installedApps/fluxqnew/batch/
+  200  ls -ltr *.jar
+  201  sc
+  202  cat mork9086.properties
+  203  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/mork9086buildfiles
+  204  ls -ltr
+  205  sudo su - tss
+  206  sc
+  207  cat mork9086.properties
+  208  vi /home.hcl/hcl_build1/ftcsbuild/mork9086/mork9086wasscripts/mork9086-deploy.properties
+  209  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  210  vi FluxEngineConfiguration.properties
+  211  ls
+  212  vi default.build.properties
+  213  vi my.build.properties
+  214  vi ReportInfo.properties
+  215  pwd
+  216  cd /home.hcl/hcl_build1/ftcsbuild/mindy9082/props-mindy9082/
+  217  ls
+  218  cd -
+  219  ls -ltr
+  220  pwd
+  221  rm -rf ServiceLocatorException.properties ReportInfo.properties TWSDatabaseServiceConfiguration.properties
+  222  vi /data/FTCSQNEW/OBDS/TRIGGER/TSF_SECURE//trigger_setup_00579.xml
+  223  pwd
+  224  cd /opt/ftcs/WSsharedlib_verf/
+  225  ls -ltr
+  226  pwd
+  227  cd ../WSsharedlib_bdev/
+  228  ls -ltr
+  229  cd nativelib/
+  230  ls
+  231  cd ..
+  232  cd cognos/
+  233  ls
+  234  ll
+  235  pwd
+  236  cd /opt/flux/flux-7-11-3
+  237  ls
+  238  vi start-engine.sh
+  239  cd /opt/ftcs
+  240  ls
+  241  cd WSsharedlib_qnew
+  242  l
+  243  ls
+  244  ll
+  245  pwd
+  246  cd ../WSsharedlib_verf/
+  247  ls -ltr
+  248  sudo su - flux
+  249  sc
+  250  ./build.sh mork9086.properties compile
+  251  vi /tss.rehost/source/AS662_QNEW/build.xml
+  252  locate axisCrnpClient.jar
+  253  sudo su - was1
+  254  sc
+  255  ./build.sh mork9086.properties build
+  256  ./build.sh mork9086.properties deploy
+  257  sudo su  - hcl_build1
+  258  sc
+  259  sudo su - tss
+  260  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  261  pwd
+  262  cd /opt/ftcs/WSsharedlib_qnew/
+  263  ls
+  264  cd cognos/
+  265  ls
+  266  ls -ltr
+  267  locate axisCrnpClient.jar
+  268  ls -ltr /tss.rehost/source/online/externallib_mork/axisCrnpClient.jar
+  269  ls -ltr /opt/ftcs/WSsharedlib_qnew/cognos/axisCrnpClient.jar
+  270  ls -ltr /opt/ftcs/WSsharedlib_hdev/cognos/axisCrnpClient.jar
+  271  ls -ltr /data/FTCSQNEW/ADMIN/REPORTS/BASICMODEL/
+  272  ls -ltr /data/FTCSARCH/ADMIN/REPORTS/BASICMODEL/
+  273  ll
+  274  ls -ltr /data/FTCSDNEW/ADMIN/REPORTS/BASICMODEL/
+  275  ls -ld /data/FTCSQNEW/ADMIN/REPORTS/BASICMODEL/
+  276  cd /opt/ftcs/WSsharedlib_qnew/
+  277  ls
+  278  ls -ltr ax*
+  279  cd cognos/
+  280  ls
+  281  pwd
+  282  locate axis.jar
+  283  vi /logs/fluxlogs/fluxqnew/linknohup
+  284  locate SystemOut.log
+  285  vi /logs/waslogs/ftcsqnew/logs/ftcsqnew/SystemOut.log
+  286  sc
+  287  cat mork9086.properties
+  288  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/mork9086buildfiles
+  289  ls -ltr *.jar
+  290  cd /opt/flux/flux-7-11-3/installedApps/fluxqnew/batch/
+  291  ls -ltr *.jar
+  292  sc
+  293  ./build.sh mork9086.properties clean
+  294  ./build.sh mork9086.properties build
+  295  ./build.sh mork9086.properties deploy
+  296  sudo su - tss
+  297  cat mork9086.properties
+  298  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/mork9086buildfiles
+  299  ls -ltr *.jar
+  300  ls -ltr /opt/flux/flux-7-11-3/installedApps/fluxqnew/batch/*.jar
+  301  tso
+  302  ls
+  303  cd JAVADOCS
+  304  ls
+  305  ls -ltr
+  306  rm -rf VERF/
+  307  rm -rf VERF
+  308  ln -s ../AS666 VERF
+  309  ls -ltr
+  310  cd ../AS666/tools
+  311  ls
+  312  cd JavaDocs/
+  313  ls
+  314  vi javadoc.properties
+  315  pwd
+  316  cd ../../
+  317  vi ftcs_src/java_src/properties/VersionInfo.properties
+  318  sc
+  319  tso
+  320  cd AS666/tools/JavaDocs/
+  321  ./javadocGenerator.sh javadoc.properties
+  322  sudo su - tss
+  323  cd /tss.rehost/source/BuildScripts/patch/
+  324  ls -lrt
+  325  pwd
+  326  cd PATCHBKP
+  327  ls -lrt
+  328  pwd
+  329  sc
+  330  cat mork9086.properties
+  331  cd /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/lib/
+  332  ls -ltr E*
+  333  cd /opt/flux/flux-7-11-3/installedApps/fluxqnew/batch/lib/
+  334  ls -ltr E*
+  335  sc
+  336  cat mindy9082.properties
+  337  cd /home.hcl/hcl_build1/ftcsbuild/mindy9082/mindy9082buildfiles
+  338  cd ..
+  339  ls
+  340  cd ..
+  341  ls
+  342  cd modularizedfiles/
+  343  ls
+  344  cd ftcsverf/
+  345  ls
+  346  cd latestfiles/
+  347  ls
+  348  vi clientjarVersion.properties
+  349  cp clientjarVersion.properties ../../ftcsqnew/latestfiles/
+  350  pwd
+  351  sc
+  352  ./build.sh mork9086.properties build
+  353  sc
+  354  ./build.sh mindy9084.properties compile
+  355  ./build.sh mindy9084.properties compile
+  356  cp /tss.rehost/source/online/pre_mindy/build.xml /tss.rehost/source/AS665_QNEW/build.xml
+  357  vi /tss.rehost/source/online/pre_mindy/build.xml
+  358  sc
+  359  ./build.sh mork9086.properties build
+  360  ./build.sh mork9086.properties deploy
+  361  sudo su - tss
+  362  cd /data/ftp
+  363  ls
+  364  ls -ltr
+  365  cd tssver6ftp
+  366  ls -ltr
+  367  pwd
+  368  cd ../tssver5ftp/
+  369  ls -ltr
+  370  sc
+  371  cat mork9086.properties
+  372  cd /home.hcl/hcl_build1/ftcsbuild/mork9086
+  373  ls
+  374  cd ..
+  375  ls
+  376  cd modularizedfiles
+  377  cd la
+  378  cd ftcsbdev/latestfiles/
+  379  cat clientjarVersion.properties
+  380  vi ../../ftcsqnew/latestfiles/clientjarVersion.properties
+  381  pwd
+  382  ls
+  383  cd buildpreversionJars/
+  384  ls
+  385  cd ../../
+  386  ls
+  387  cd all_modularized/
+  388  s
+  389  ls
+  390  vi buildpreversionJars/
+  391  vi clientjarVersion.properties
+  392  cp clientjarVersion.properties /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  393  pwd
+  394  exit
+  395  exit
+  396  sc
+  397  ./build.sh mork9086.properties compile
+  398  grep -irl "ca.boeing.com" .
+  399  grep -irl  "ca.boeing.com"
+  400  tail -f /logs/fluxlogs/fluxqnew/port7086_20130301_1552/startScheduler.20130301_1552.log
+  401  vi /logs/fluxlogs/fluxqnew/port7086_20130301_1552/startScheduler.20130301_1552.log
+  402  pwd
+  403  sc
+  404  cat mork9086.properties
+  405  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  406  cat BatchDatabaseServiceConfiguration.properties
+  407  cd /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/properties/
+  408   cat BatchDatabaseServiceConfiguration.properties
+  409  cat DatabaseServiceConfiguration.properties
+  410  vi FluxEngineConfiguration.properties
+  411  ls
+  412  ll
+  413  pw
+  414  pwd
+  415  pwd
+  416  exit
+  417  exit
+  418  locate ojdbc6.jar
+  419  ls -ltr /opt/flux/flux-7-11-3/installedApps/fluxqnew/batch/lib/ojdbc6.jar
+  420  ls -ltr /opt/ftcs/WSsharedlib_qnew/ojdbc6.jar
+  421  tso
+  422  cd DBA/BUILD/PRE/
+  423  dbScripts.sh AS666_A ftcsbdev ftcsbdev
+  424  dbScripts.sh AS666_A ftcsbdev ftcsbdev
+  425  pwd
+  426  vi /tss.rehost/source/AS665_QNEW/build.xml
+  427  sc
+  428  cat mindy9084.properties
+  429  cd /home/hcl_build1/ftcsbuild/mindy9084/props-mindy9084
+  430  cd ..
+  431  ls
+  432  cd ..
+  433  ls
+  434  cd modularizedfiles
+  435  ls
+  436  cd ftcsbdev/
+  437  ls
+  438  cd latestfiles/
+  439  ls
+  440  cat clientjarVersion.properties
+  441  sc
+  442  ./build.sh mork9086.properties compile
+  443  sc
+  444  cat mindy9082.properties
+  445  cd /home.hcl/hcl_build1/ftcsbuild/mindy9082/props-mindy9082
+  446  ls
+  447  cat mindy9084.
+  448  sc
+  449  cat mindy9084.properties
+  450  cd /home/hcl_build1/ftcsbuild/mindy9084/props-mindy9084
+  451  ls
+  452  sc
+  453  cat mork9082.properties
+  454  cd /home.hcl/hcl_build1/ftcsbuild/mork9082/props-mork9082
+  455  cat BatchDatabaseServiceConfiguration.properties
+  456  pwd
+  457  sc
+  458  cat mork9088.properties
+  459  cd /tss.rehost/source/VERA_CODE/Boeing_Src/Development/ftcs_src/java_src/properties/
+  460  ls
+  461  cat BatchDatabaseServiceConfiguration.properties
+  462  sc
+  463  cat mork9082.properties
+  464  cat mindy9084.properties
+  465  cd /home/hcl_build1/ftcsbuild/mindy9084/
+  466  ls
+  467  cd ..
+  468  ls
+  469  cd modularizedfiles/
+  470  ls
+  471  cd ftcsbdev/
+  472  ls
+  473  cd all_modularized/
+  474  ls
+  475  cat clientjarVersion.properties
+  476  ls
+  477  pwd
+  478  cd ../../ftcsqnew/
+  479  ls
+  480  cd all_modularized/
+  481  ls
+  482  cat clientjarVersion.properties
+  483  cd ../latestfiles/
+  484  ls
+  485  cat clientjarVersion.properties
+  486  vi clientjarVersion.properties
+  487  sc
+  488  ./build.sh mork9086.properties build
+  489  ./build.sh mork9086.properties deploy
+  490  sudo su - tss
+  491  sc
+  492  cat mork9086.properties
+  493  cd /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/lib/
+  494  ls -ltr E*
+  495  vi /tss.rehost/source/AS665_QNEW/build.xml
+  496  vi /tss.rehost/source/online/pre_mindy/build.xml
+  497  cp /tss.rehost/source/online/pre_mindy/build.xml /tss.rehost/source/AS665_QNEW/build.xml
+  498  cd /tss.rehost/source/AS665_QNEW
+  499  locate build.xml .
+  500  find . -name build.xml
+  501  sc
+  502  cat mork9086.properties
+  503  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  504  ls
+  505  vi build.xml
+  506  rm r-f build.xml
+  507  pwd
+  508  ls
+  509  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/mork9086buildfiles
+  510  ls
+  511  sc
+  512  ./build.sh mork9086.properties clean
+  513  ./build.sh mork9086.properties build
+  514  ./build.sh mork9086.properties deploy
+  515  sudo su - tss
+  516  sudo su - tss
+  517  sudo su - was1
+  518  sc
+  519  cat mork9086.properties
+  520  cp /opt/ftcs/WSsharedlib_qnew/ojdbc6.jar /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/lib/
+  521  rm -rf /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/lib/ojdbc14.jar
+  522  vi /tss.rehost/source/AS665_QNEW/build.xml
+  523  sc
+  524  cat mork9088.properties
+  525  sc
+  526  ./build.sh mork9088.properties compile
+  527  vvi /tss.rehost/source/VERA_CODE/Boeing_Src/Development/build.xml
+  528  vi /tss.rehost/source/VERA_CODE/Boeing_Src/Development/build.xml
+  529  vi /tss.rehost/source/AS665_QNEW/build.xml
+  530  sudo su - flux6
+  531  sudo su - flux
+  532  ./build.sh mork9086.properties compile
+  533  3vi /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  534  vi /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  535  vi /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  536  vi /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/tp/ftir/batch/FtirDAO.java
+  537  vi /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/tp/ftir/batch/FtirDAO.java
+  538  sc
+  539  ./build.sh mork9086.properties build
+  540  ./build.sh mork9086.properties deploy
+  541  sudo su - tss
+  542  cat mork9086.properties
+  543  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  544  vi DatabaseServiceConfiguration.properties
+  545  vi BatchDatabaseServiceConfiguration.properties
+  546  sc
+  547  ./build.sh mork9086.properties build
+  548  ./build.sh mork9086.properties deploy
+  549  sudo su - tss
+  550  cd /data
+  551  ls -ltr
+  552  cd ftp/
+  553  ls -ltr
+  554  cd tssver6ftp
+  555  ls
+  556  ls -ltr
+  557  cd /data
+  558  ls -ltr
+  559  sc
+  560  b
+  561  ./BDEV-build.sh 666_A
+  562  sc
+  563  ./BDEV-deploy.sh
+  564  locate Logger.java
+  565  vi /home/hcl_build1/Hudson-src/com/boeing/ftcs/common/logging/Logger.java
+  566  sc
+  567  vi mork9082.properties
+  568  cd /tss.rehost/source/Branch_Test/Boeing_Src/Development/
+  569  find ./ -iname Logger.java
+  570  vi ./ftcs_src/java_src/src/com/boeing/ftcs/common/logging/Logger.java
+  571  vi ./ftcs_src/java_src/src/com/boeing/ftcs/common/logging/Logger.java
+  572  ./mork.sh
+  573  locate SyetemOut.log
+  574  locate SystemOut.log
+  575  tail -f /logs/waslogs/ftcshdev/logs/ftcshdev/SystemOut.log
+  576  cd ~
+  577  ./mork.sh
+  578  locate SyetemOut.log
+  579  locate SystemOut.log
+  580  tail -f /logs/waslogs/ftcshdev/logs/ftcshdev/SystemOut.log
+  581  getfacl /data/ftp/tssftp/External_system_processing/tdrs/drq
+  582  cd /data/ftp/tssftp/External_system_processing/tdrs/drq
+  583  ls -lrt
+  584  cd /data/ftp/tssver2ftp/External_system_processing/tdrs/drq
+  585  ls -lrt
+  586  flux
+  587  tss
+  588  exit
+  589  tso
+  590  ls
+  591  cd /tss.rehost/source/bhagath/
+  592  ls
+  593  ll
+  594  cd checkout/
+  595  ll
+  596  export CVS_RSH=ssh
+  597  export CVSROOT=:ext:pp102d@bte-uapp-05.cs.boeing.com:/data/cvs
+  598  cvs co -r "Release_AS666" Boeing_Src/Development/ftcs_src/java_src/src/
+  599  cd Boeing_Src/Development/ftcs_src/java_src/src/
+  600  ll
+  601  tar -zcf /tmp/AS666.tgz com/
+  602  cd /tss.rehost/source/R7-TestNGReportStage2
+  603  lstest
+  604  cd lib
+  605  cd testng/
+  606  ll
+  607  cd testng-xslt-1.1.2
+  608  ll
+  609  cd ../..
+  610  ll
+  611  cd ..
+  612  ls
+  613  vi testng.xml
+  614  ll
+  615  cd
+  616  cd /tss.rehost/source/Branch_Test/Boeing_Src/Development/
+  617  vi build.xml
+  618  exit
+  619  ll
+  620  vi TestNGReportEmmaStage2.sh
+  621  cd /tss.rehost/source/R7-TestNGReportStage2
+  622  ll
+  623  ls
+  624  vi runTestNGEmmaStage2.sh
+  625  vi 2build-TestNGReportStage2test.xml
+  626  cd ..
+  627  cd ..
+  628  cd -
+  629  cd R7-TestNGReportStage2
+  630  ll
+  631  cd src/
+  632  ll
+  633  cd
+  634  ll
+  635  cat TestNGReportEmmaStage2.sh
+  636  cd /tss.rehost/source/R7-TestNGReportStage2/Boeing_Src/Development/ftcs_src/java_src/test/
+  637  ll
+  638  ll
+  639  cd
+  640  cd /tss.rehost/source/bhagath/
+  641  ls
+  642  cd copy/
+  643  ls
+  644  ll
+  645  rm -rf TPFTESTINGFILE.zip
+  646  export CVSROOT=:ext:pp102d@bte-uapp-05.cs.boeing.com:/data/cvs
+  647  export CVS_RSH=ssh
+  648  cvs checkout  -r "Release7_RF_Branch_03Dec12"  Boeing_Src/Development/ftcs_src/java_src/test
+  649  cvs checkout  -r "Release7_RF_Branch_03Dec12"  Boeing_Src/Development/ftcs_src/java_src/src
+  650  ll
+  651  cd Boeing_Src/Development/ftcs_src/java_src/
+  652  ll
+  653  cd ..
+  654  cd ..
+  655  cd ..
+  656  cd ..
+  657  tar -zcf /tmp/TestNG-src-test.tgz Boeing_Src/
+  658  ll /tmp/TestNG-src-test.tgz
+  659  cd -
+  660  exit
+  661  tso
+  662  vi dbscripts/AS665/FTCS_SQL_Queries_AS665.properties
+  663  vi dbscripts/AS665/Scripts_AS665.sql
+  664  vi dbscripts/AS664/FTCS_SQL_Queries_AS664.properties
+  665  vi dbscripts/AS664/Scripts_AS664.sql
+  666  tso
+  667  ls -lrt
+  668  diff -b -i -r AS662/ftcs_src/java_src/src/com/boeing/ftcs/client/ui/tp/icdsetup/view/IcdSetupEffFieldTmpl
+  669  diff -b -i -r AS662/ftcs_src/java_src/src/com/boeing/ftcs/client/ui/tp/icdsetup/view/IcdSetupEffFieldTmpl.java AS666/ftcs_src/java_src/src/com/boeing/ftcs/client/ui/tp/icdsetup/view/IcdSetupEffFieldTmpl.java
+  670  flux7
+  671  cd /opt/cognos/
+  672  ls -lrt
+  673  cd  crndnew/
+  674  ls -lrt
+  675  cd bin/
+  676  ls -lrt
+  677  cd conf
+  678  ls -lrt
+  679  cd ../../configuration/
+  680  ls -lrt
+  681  vi crnstartup.xml
+  682  pwd
+  683  cognos3
+  684  sc
+  685  ls -lrt
+  686  ls -lrt *9083*
+  687  cat mork9084.properties
+  688  ls -lrt
+  689  cd
+  690  ls -lrt
+  691  vi vera.sh
+  692  sc
+  693  cat mork9088.properties
+  694  cd /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088
+  695  ls -lrt
+  696  vi DatabaseServiceConfiguration.properties
+  697  vi BatchDatabaseServiceConfiguration.properties
+  698  cd
+  699  cd /tss.rehost/source/BuildScripts/CVSScritps/Release7/
+  700  ls -lrt
+  701  mkdir R7_RF_DEV_04Mar2013_A
+  702  cd R7_RF_DEV_04Mar2013_A/
+  703  cvs co -r "R7_RF_DEV_04Mar2013_A" Boeing_Src
+  704  export CVSROOT=:ext:ej507c@bte-uapp-05.cs.boeing.com:/data/cvs
+  705  cvs co -r "R7_RF_DEV_04Mar2013_A" Boeing_Src
+  706  cd ../
+  707  mkdir R7_RF_DEV_03Mar2013_A
+  708  cd R7_RF_DEV_03Mar2013_A/
+  709  cvs co -r "R7_RF_DEV_03Mar2013_A" Boeing_Src
+  710  cat mork9086.sh
+  711  :q!
+  712  sc
+  713  cat mork9086.properties
+  714  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086\
+  715  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  716  ls
+  717  vi FluxEngineConfiguration.properties
+  718  cat MailSettings.properties
+  719  pwd
+  720  pwd
+  721  sc
+  722  pwd
+  723  cat mindy9082.properties
+  724  cat /home.hcl/hcl_build1/ftcsbuild/mindy9082/props-mindy9082/MailSettings.properties
+  725  vi /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/MailSettings.properties
+  726  sc
+  727  cat mindy9084.properties
+  728  cat /home/hcl_build1/ftcsbuild/mindy9084/props-mindy9084/MailSettings.properties
+  729  vi /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/MailSettings.properties
+  730  sc
+  731  ./build.sh mork9086.properties restartflux
+  732  tail -f /logs/fluxlogs/fluxqnew/port7086_20130304_1327/startScheduler.20130304_1327.log
+  733  vi /logs/fluxlogs/fluxqnew/port7086_20130304_1327/startScheduler.20130304_1327.log
+  734  sc
+  735  cat mork9086.properties
+  736  pwd
+  737  sc
+  738  cat mork9088.properties
+  739  cd /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088
+  740  ls
+  741  cat BatchDatabaseServiceConfiguration.properties
+  742  cat DatabaseServiceConfiguration.properties
+  743  cat FluxEngineConfiguration.properties
+  744  cat MailSettings.properties
+  745  sc
+  746  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  747  ls
+  748  cat BatchDatabaseServiceConfiguration.properties
+  749  exit
+  750  sc
+  751  cat mork9086.properties
+  752  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  753  cat BatchDatabaseServiceConfiguration.properties
+  754  sc
+  755  cat mork9088.properties
+  756  cat /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088/BatchDatabaseServiceConfiguration.properties
+  757  pwd
+  758  sc
+  759  cd /opt/flux/flux-7-11-3
+  760  ls
+  761  ls -ltr
+  762  vi startScheduler.sh
+  763  pwd
+  764  sudo su - flux
+  765  sudo su - flux6
+  766  sudo su - flux
+  767  sudo su - oracle
+  768  exit
+  769  exit
+  770  vi /logs/fluxlogs/fluxdnew/linknohup
+  771  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  772  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  773  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  774  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  775  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  776  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  777  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  778  vi /logs/fluxlogs/fluxdnew/linknohup
+  779  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  780  vi /logs/fluxlogs/fluxqnew/linknohup
+  781  exit
+  782  cd /logs/fluxlogs/flux7-11-3/
+  783  cd /logs/fluxlogs/
+  784  ls
+  785  cd fluxqnew/
+  786  sc
+  787  cat mork9086.properties
+  788  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  789  vi FluxEngineConfiguration.properties
+  790  vi M
+  791  vi MailSettings.properties
+  792  cat MailSettings.properties
+  793  sc
+  794  cat mindy9082.properties
+  795  cd /home.hcl/hcl_build1/ftcsbuild/mindy9082/props-mindy9082
+  796  cat MailSettings.properties
+  797  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  798  vi MailSettings.properties
+  799  cat /home.hcl/hcl_build1/ftcsbuild/mindy9084/props-mindy9084/MailSettings.properties
+  800  vi MailSettings.properties
+  801  sudo su - flux6
+  802  sc
+  803  ./build.sh mork9088.properties build
+  804  pwd
+  805  vi /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088/MailSettings.properties
+  806  ./build.sh mork9088.properties build
+  807  ./build.sh mork9086.properties build
+  808  tso
+  809  cd AS665
+  810  cd ftcs_src/java_src/properties/
+  811  cat FluxEngineConfiguration.properties
+  812  cat MailSettings.properties
+  813  cp MailSettings.properties /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/MailSettings.properties
+  814  vi /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/MailSettings.properties
+  815  sc
+  816  ./build.sh mork9086.properties build
+  817  ./build.sh mork9086.properties deploy
+  818  ./build.sh mork9086.properties restartserver
+  819  ./build.sh mork9086.properties restartflux
+  820  kill -9 %1
+  821  ./build.sh mork9086.properties restartflux
+  822  sudo su - flux6
+  823  sc
+  824  cat mork9086.properties
+  825  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  826  b
+  827  ./BDEV-build.sh 666_B
+  828  sc
+  829  ./BDEV-deploy.sh
+  830  sc
+  831  cat mindy9082.properties
+  832  vi /tss.rehost/source/online/AS666
+  833  vi mindy9082.properties
+  834  vi /home.hcl/hcl_build1/ftcsbuild/mindy9082/props-mindy9082/VersionInfo.properties
+  835  vi /home.hcl/hcl_build1/ftcsbuild/mindy9082/props-mindy9082/index.html
+  836  tso
+  837  cp -rvf pre_mindy AS667
+  838  sc
+  839  tso
+  840  cd DBA/BUILD/
+  841  cd VERF/
+  842  dbScripts.sh AS667 ftcsverf ftcsverf
+  843  sc
+  844  ./mindy-build.sh
+  845  sc
+  846  ./VERF-deploy.sh
+  847  sc
+  848  ./build.sh mork9086.properties clean
+  849  ./build.sh mork9086.properties build
+  850  ./build.sh mork9086.properties deploy
+  851  sudo su - tss
+  852  ./build.sh mork9086.properties restartserver
+  853  ./build.sh mork9086.properties restartflux
+  854  tail -f /logs/fluxlogs/fluxqnew/port7086_20130304_1403/startScheduler.20130304_1403.log
+  855  vi /logs/fluxlogs/fluxqnew/port7086_20130304_1403/startScheduler.20130304_1403.log
+  856  sudo su - flux6
+  857  ./build.sh mork9086.properties restartflux
+  858  tail --f /logs/fluxlogs/fluxqnew/port7086_20130304_1411/startScheduler.20130304_1411.log
+  859  tail -f /logs/fluxlogs/fluxqnew/port7086_20130304_1411/startScheduler.20130304_1411.log
+  860  locate ojdbc6.jar
+  861  ls -ltr /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/lib/ojdbc6.jar
+  862  pwd
+  863  sc
+  864  cat mork9088.properties
+  865  cat mork9086.properties
+  866  diff /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/BatchDatabaseServiceConfiguration.properties  /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088/BatchDatabaseServiceConfiguration.properties
+  867  diff /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/DatabaseServiceConfiguration.properties  /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088/DatabaseServiceConfiguration.properties
+  868  cd /opt/ftcs/WSsharedlib_qnew/
+  869  ls
+  870  ls -ltr
+  871  sc
+  872  cat mork9088.properties
+  873  cat mork9086.properties
+  874  ls -ltr /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  875  ls -ltr /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088
+  876  cat FluxEngineConfiguration.properties
+  877  cat /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088/FluxEngineConfiguration.properties
+  878  sc
+  879  cat mork9086.properties
+  880  cd  /tss.rehost/source
+  881  sc
+  882  history|grep vi
+  883  diff /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java /tss.rehost/source/VERA_CODE/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  884  diff /tss.rehost/source/VERA_CODE/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  885  cat /tss.rehost/source/VERA_CODE/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  886  cd  /tss.rehost/source/VERA_CODE/
+  887  ls
+  888  diff /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java /tss.rehost/source/VERA_CODE/Boeing_Src/Development/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  889  vi /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  890  diff /tss.rehost/source/AS665_QNEW/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java /tss.rehost/source/VERA_CODE/Boeing_Src/Development/ftcs_src/java_src/src/com/boeing/ftcs/server/framework/dao/FTCSOracleExtension.java
+  891  sc
+  892  ./build.sh mork9086.properties build
+  893  ./build.sh mork9086.properties deploy
+  894  ./build.sh mork9086.properties restartserver
+  895  ./build.sh mork9086.properties restartflux
+  896  tail -f /logs/fluxlogs/fluxqnew/port7086_20130304_1506/startScheduler.20130304_1506.log
+  897  vi /logs/fluxlogs/fluxqnew/port7086_20130304_1506/startScheduler.20130304_1506.log
+  898  vi /logs/fluxlogs/fluxqnew/port7086_20130304_1506/startScheduler.20130304_1506.log
+  899  locate ojdbc6.jar
+  900  locate ojdbc14.jar
+  901  vi /logs/fluxlogs/fluxqnew/port7086_20130304_1506/startScheduler.20130304_1506.log
+  902  vi /logs/fluxlogs/fluxdnew/linknohup
+  903  cat mork9086.properties
+  904  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  905  cat DatabaseServiceConfiguration.properties
+  906  cat DatabaseServiceConfiguration.properties
+  907  cat BatchDatabaseServiceConfiguration.properties
+  908  sc
+  909  b
+  910  cd CVSScritps/
+  911  ls
+  912  vi FTCSCopyTag.sh
+  913  ./FTCSCopyTag.sh
+  914  pwd
+  915  pwd
+  916  cd /logs/fluxlogs/fluxqnew
+  917  vi linknohup
+  918  pwd
+  919  sc
+  920  cat mork9088.properties
+  921  cat mork9086.properties
+  922  cat /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088/M
+  923  cat /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088/MailSettings.properties
+  924  cat /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/MailSettings.properties
+  925  vi /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/MailSettings.properties
+  926  ./build.sh mork9086.properties startflux
+  927  tail -f /logs/fluxlogs/fluxqnew/port7086_20130304_1647/startScheduler.20130304_1647.log
+  928  vi /logs/fluxlogs/fluxqnew/port7086_20130304_1647/startScheduler.20130304_1647.log
+  929  cat /home.hcl/hcl_build1/ftcsbuild/mork9088/props-mork9088/MailSettings.properties
+  930  cat /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/MailSettings.properties
+  931  vi /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086/MailSettings.properties
+  932  ./build.sh mork9086.properties startflux
+  933  tail -f /logs/fluxlogs/fluxqnew/port7086_20130304_1650/startScheduler.20130304_1650.log
+  934  vi /logs/fluxlogs/fluxqnew/port7086_20130304_1650/startScheduler.20130304_1650.log
+  935  vi /logs/fluxlogs/fluxqnew/linknohup
+  936  sc
+  937  ./build.sh mork9086.properties build
+  938  ./build.sh mork9086.properties deploy
+  939  ./build.sh mork9086.properties restartserver
+  940  ./build.sh mork9086.properties startflux
+  941  vi /logs/fluxlogs/fluxqnew/port7086_20130304_1705/startScheduler.20130304_1705.log
+  942  sc
+  943  cat mork9086.properties
+  944  cd /home.hcl/hcl_build1/ftcsbuild/mork9086/props-mork9086
+  945  vi FluxEngineConfiguration.properties
+  946  cd /opt/flux/
+  947  ls -lt
+  948  ls -ltr
+  949  cd flux-7-1
+  950  cd flux-7-11-3
+  951  ls -ltr
+  952  cd installedApps/
+  953  ls -ltr
+  954  cd fluxqnew/
+  955  ls -ltr
+  956  cd batch/
+  957  ls -ltr
+  958  cd lib/
+  959  ls -ltr
+  960  pwd
+  961  sudo su - flux
+  962  sc
+  963  tso
+  964  cd AS662/ftcs_src/java_src/properties/
+  965  ls -ltr
+  966  cat FluxEngineConfiguration.properties
+  967  cat MailSettings.properties
+  968  tail -f /logs/fluxlogs/fluxqnew/linknohup
+  969  cat TestNGReportEmmaStage2.sh
+  970  cd /tss.rehost/source/R7-TestNGReportStage2
+  971  ll
+  972  cd classes/
+  973  ll
+  974  cd com/
+  975  ll
+  976  cd ..
+  977  tar -zcf Test-Clasees.tgz com/
+  978  ll
+  979  mv Test-Clasees.tgz /tmp
+  980  cd ../lib/
+  981  ll
+  982  cd testng/
+  983  ll
+  984  pwd
+  985  cd ../..
+  986  ll
+  987  cat testng.xml
+  988  vi 2build-TestNGReporttestorginal.xml
+  989  cd classes/
+  990  ll
+  991  cd ..
+  992  vi 2build-TestNGReporttestorginal.xml
+  993  ll
+  994  cd mainsrc
+  995  ll
+  996  cd ..
+  997  vi TestNG-Stage2.log
+  998  cat 2build-TestNGReportStage2test.xml
+  999  cd FTCS-R7testngstage4-output
+ 1000  ll
+ 1001  history
